@@ -59,7 +59,9 @@ CREATE TABLE Persona (
     nombre VARCHAR(100),
     id_dni INT UNIQUE,  -- Clave foránea con UNIQUE
     FOREIGN KEY (id_dni) REFERENCES DNI(id_dni)
-);```
+);
+```
+
 2. Relación Uno a Muchos (1:N)
 Definición: Un registro de la entidad A puede relacionarse con varios registros de la entidad B, pero cada registro de B se relaciona con solo uno de A.
 
@@ -75,7 +77,9 @@ CREATE TABLE Empleado (
     nombre VARCHAR(100),
     id_departamento INT,  -- FK sin UNIQUE
     FOREIGN KEY (id_departamento) REFERENCES Departamento(id_departamento)
-);```
+);
+```
+
 3. Relación Muchos a Muchos (N:M)
 Definición: Un registro de A puede relacionarse con muchos registros de B, y viceversa.
 
@@ -94,7 +98,9 @@ CREATE TABLE Matricula (
     PRIMARY KEY (id_estudiante, id_curso),
     FOREIGN KEY (id_estudiante) REFERENCES Estudiante(id_estudiante),
     FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
-);```
+);
+```
+
 
 # 🗝 Actividad 3: Claves Primarias y Foráneas
 

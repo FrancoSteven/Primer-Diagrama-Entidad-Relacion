@@ -21,6 +21,7 @@ Antes de aprender conceptos avanzados de bases de datos, realizaremos una activi
 6. Exporta tu diagrama como **imagen PNG** para entregarlo.
 
 **Respuesta**
+
 ![Diagrama ER](imag/diagrama_ER.jpeg)
 
 Relaciones (rombos):
@@ -44,6 +45,7 @@ Ahora que ya tienes tu primer diagrama ER, es momento de aprender sobre **cardin
 3. Exporta el nuevo diagrama con cardinalidades como **imagen PNG**.
 
 **Respuesta**
+
 1. Relación Uno a Uno (1:1)
 Definición: Un registro de la entidad A se relaciona con exactamente un registro de la entidad B, y viceversa.
 
@@ -120,5 +122,6 @@ Es momento de identificar las **claves primarias (PK)** y **claves foráneas (FK
 4. Adjunta tu tabla junto con el diagrama actualizado.
 
 **Respuesta**
+
 ![diagrama con llaves ](imag/Diagrama_ERPF.png)
 ![llaves foraneas y primarias ](imag/cuadro_llaves_ER.png)
